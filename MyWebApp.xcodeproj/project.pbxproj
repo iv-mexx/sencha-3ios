@@ -13,7 +13,6 @@
 		2195C31F170DE11000A244ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2195C31D170DE11000A244ED /* InfoPlist.strings */; };
 		2195C321170DE11000A244ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C320170DE11000A244ED /* main.m */; };
 		2195C325170DE11000A244ED /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C324170DE11000A244ED /* IVAppDelegate.m */; };
-		2195C32B170DE11100A244ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2195C32A170DE11100A244ED /* Default-568h@2x.png */; };
 		2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2195C32C170DE11100A244ED /* MainStoryboard.storyboard */; };
 		2195C331170DE11100A244ED /* IVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C330170DE11100A244ED /* IVViewController.m */; };
 /* End PBXBuildFile section */
@@ -29,9 +28,6 @@
 		2195C322170DE11000A244ED /* MyWebApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWebApp-Prefix.pch"; sourceTree = "<group>"; };
 		2195C323170DE11000A244ED /* IVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVAppDelegate.h; sourceTree = "<group>"; };
 		2195C324170DE11000A244ED /* IVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVAppDelegate.m; sourceTree = "<group>"; };
-		2195C326170DE11000A244ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2195C328170DE11100A244ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2195C32A170DE11100A244ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2195C32D170DE11100A244ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2195C32F170DE11100A244ED /* IVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVViewController.h; sourceTree = "<group>"; };
 		2195C330170DE11100A244ED /* IVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVViewController.m; sourceTree = "<group>"; };
@@ -98,9 +94,6 @@
 				2195C31D170DE11000A244ED /* InfoPlist.strings */,
 				2195C320170DE11000A244ED /* main.m */,
 				2195C322170DE11000A244ED /* MyWebApp-Prefix.pch */,
-				2195C326170DE11000A244ED /* Default.png */,
-				2195C328170DE11100A244ED /* Default@2x.png */,
-				2195C32A170DE11100A244ED /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2195C31F170DE11000A244ED /* InfoPlist.strings in Resources */,
-				2195C32B170DE11100A244ED /* Default-568h@2x.png in Resources */,
 				2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +289,7 @@
 				2195C336170DE11100A244ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
