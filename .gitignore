@@ -17,3 +17,14 @@ profile
 *.moved-aside
 DerivedData
 
+###SublimeText###
+ 
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+sftp-config*.json
+
+
+###Sencha-Touch###
+
+webapp/resources/sass/.sass-cache/
