@@ -21,6 +21,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	NSString *webapIndexPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"webapp"];
+	NSURL *webappUrl = [NSURL fileURLWithPath:webapIndexPath];
+	NSURLRequest *request = [[NSURLRequest alloc]initWithURL:webappUrl];
+	[_webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning
