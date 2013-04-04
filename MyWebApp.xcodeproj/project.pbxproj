@@ -13,8 +13,6 @@
 		2195C31F170DE11000A244ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2195C31D170DE11000A244ED /* InfoPlist.strings */; };
 		2195C321170DE11000A244ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C320170DE11000A244ED /* main.m */; };
 		2195C325170DE11000A244ED /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C324170DE11000A244ED /* IVAppDelegate.m */; };
-		2195C327170DE11000A244ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2195C326170DE11000A244ED /* Default.png */; };
-		2195C329170DE11100A244ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2195C328170DE11100A244ED /* Default@2x.png */; };
 		2195C32B170DE11100A244ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2195C32A170DE11100A244ED /* Default-568h@2x.png */; };
 		2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2195C32C170DE11100A244ED /* MainStoryboard.storyboard */; };
 		2195C331170DE11100A244ED /* IVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C330170DE11100A244ED /* IVViewController.m */; };
@@ -160,8 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2195C31F170DE11000A244ED /* InfoPlist.strings in Resources */,
-				2195C327170DE11000A244ED /* Default.png in Resources */,
-				2195C329170DE11100A244ED /* Default@2x.png in Resources */,
 				2195C32B170DE11100A244ED /* Default-568h@2x.png in Resources */,
 				2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */,
 			);

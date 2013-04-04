@@ -8,11 +8,14 @@
 
 #import "IVViewController.h"
 
-@interface IVViewController ()
+@interface IVViewController () <UIWebViewDelegate>
 
 @end
 
 @implementation IVViewController
+{
+	__weak IBOutlet UIWebView *_webView;
+}
 
 - (void)viewDidLoad
 {
