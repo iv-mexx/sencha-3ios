@@ -15,11 +15,21 @@
 		2195C325170DE11000A244ED /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C324170DE11000A244ED /* IVAppDelegate.m */; };
 		2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2195C32C170DE11100A244ED /* MainStoryboard.storyboard */; };
 		2195C331170DE11100A244ED /* IVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C330170DE11100A244ED /* IVViewController.m */; };
-		2197F8F5170DE48500245DA7 /* webapp in Resources */ = {isa = PBXBuildFile; fileRef = 2197F8F4170DE48500245DA7 /* webapp */; };
+		2197F8FA170DF01A00245DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C320170DE11000A244ED /* main.m */; };
+		2197F8FB170DF01A00245DA7 /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C324170DE11000A244ED /* IVAppDelegate.m */; };
+		2197F8FC170DF01A00245DA7 /* IVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2195C330170DE11100A244ED /* IVViewController.m */; };
+		2197F8FE170DF01A00245DA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2195C314170DE11000A244ED /* UIKit.framework */; };
+		2197F8FF170DF01A00245DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2195C316170DE11000A244ED /* Foundation.framework */; };
+		2197F900170DF01A00245DA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2195C318170DE11000A244ED /* CoreGraphics.framework */; };
+		2197F902170DF01A00245DA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2195C31D170DE11000A244ED /* InfoPlist.strings */; };
+		2197F903170DF01A00245DA7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2195C32C170DE11100A244ED /* MainStoryboard.storyboard */; };
+		2197F904170DF01A00245DA7 /* production in Resources */ = {isa = PBXBuildFile; fileRef = 2197F8F6170DED3A00245DA7 /* production */; };
+		2197F90A170DF07400245DA7 /* webapp in Resources */ = {isa = PBXBuildFile; fileRef = 2197F8F4170DE48500245DA7 /* webapp */; };
+		2197F90E170DFC2E00245DA7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2197F90D170DFC2E00245DA7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2195C311170DE11000A244ED /* MyWebApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2195C311170DE11000A244ED /* MyWebAppDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebAppDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2195C314170DE11000A244ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2195C316170DE11000A244ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2195C318170DE11000A244ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -33,6 +43,10 @@
 		2195C32F170DE11100A244ED /* IVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVViewController.h; sourceTree = "<group>"; };
 		2195C330170DE11100A244ED /* IVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVViewController.m; sourceTree = "<group>"; };
 		2197F8F4170DE48500245DA7 /* webapp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webapp; sourceTree = SOURCE_ROOT; };
+		2197F8F6170DED3A00245DA7 /* production */ = {isa = PBXFileReference; lastKnownFileType = folder; name = production; path = webapp_production/production; sourceTree = SOURCE_ROOT; };
+		2197F908170DF01A00245DA7 /* MyWebApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWebApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2197F909170DF01A00245DA7 /* MyWebApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyWebApp copy-Info.plist"; path = "/Users/markuschmelar/Documents/web/MyWebApp/MyWebApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		2197F90D170DFC2E00245DA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,22 +60,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2197F8FD170DF01A00245DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2197F8FE170DF01A00245DA7 /* UIKit.framework in Frameworks */,
+				2197F8FF170DF01A00245DA7 /* Foundation.framework in Frameworks */,
+				2197F900170DF01A00245DA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2195C308170DE11000A244ED = {
 			isa = PBXGroup;
 			children = (
+				2197F90D170DFC2E00245DA7 /* README.md */,
 				2195C31A170DE11000A244ED /* MyWebApp */,
 				2195C313170DE11000A244ED /* Frameworks */,
 				2195C312170DE11000A244ED /* Products */,
+				2197F909170DF01A00245DA7 /* MyWebApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		2195C312170DE11000A244ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2195C311170DE11000A244ED /* MyWebApp.app */,
+				2195C311170DE11000A244ED /* MyWebAppDevelopment.app */,
+				2197F908170DF01A00245DA7 /* MyWebApp copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +106,7 @@
 		2195C31A170DE11000A244ED /* MyWebApp */ = {
 			isa = PBXGroup;
 			children = (
+				2197F8F6170DED3A00245DA7 /* production */,
 				2197F8F4170DE48500245DA7 /* webapp */,
 				2195C323170DE11000A244ED /* IVAppDelegate.h */,
 				2195C324170DE11000A244ED /* IVAppDelegate.m */,
@@ -104,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2195C310170DE11000A244ED /* MyWebApp */ = {
+		2195C310170DE11000A244ED /* MyWebAppDevelopment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2195C334170DE11100A244ED /* Build configuration list for PBXNativeTarget "MyWebApp" */;
+			buildConfigurationList = 2195C334170DE11100A244ED /* Build configuration list for PBXNativeTarget "MyWebAppDevelopment" */;
 			buildPhases = (
 				2195C30D170DE11000A244ED /* Sources */,
 				2195C30E170DE11000A244ED /* Frameworks */,
@@ -116,9 +144,27 @@
 			);
 			dependencies = (
 			);
-			name = MyWebApp;
+			name = MyWebAppDevelopment;
 			productName = MyWebApp;
-			productReference = 2195C311170DE11000A244ED /* MyWebApp.app */;
+			productReference = 2195C311170DE11000A244ED /* MyWebAppDevelopment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2197F8F8170DF01A00245DA7 /* MyWebAppProduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2197F905170DF01A00245DA7 /* Build configuration list for PBXNativeTarget "MyWebAppProduction" */;
+			buildPhases = (
+				2197F8F9170DF01A00245DA7 /* Sources */,
+				2197F8FD170DF01A00245DA7 /* Frameworks */,
+				2197F90B170DF25C00245DA7 /* ShellScript */,
+				2197F901170DF01A00245DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWebAppProduction;
+			productName = MyWebApp;
+			productReference = 2197F908170DF01A00245DA7 /* MyWebApp copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2195C310170DE11000A244ED /* MyWebApp */,
+				2195C310170DE11000A244ED /* MyWebAppDevelopment */,
+				2197F8F8170DF01A00245DA7 /* MyWebAppProduction */,
 			);
 		};
 /* End PBXProject section */
@@ -155,11 +202,38 @@
 			files = (
 				2195C31F170DE11000A244ED /* InfoPlist.strings in Resources */,
 				2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */,
-				2197F8F5170DE48500245DA7 /* webapp in Resources */,
+				2197F90A170DF07400245DA7 /* webapp in Resources */,
+				2197F90E170DFC2E00245DA7 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2197F901170DF01A00245DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2197F902170DF01A00245DA7 /* InfoPlist.strings in Resources */,
+				2197F903170DF01A00245DA7 /* MainStoryboard.storyboard in Resources */,
+				2197F904170DF01A00245DA7 /* production in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2197F90B170DF25C00245DA7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd webapp\n$SENCHA_CMD app build production ../webapp_production\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2195C30D170DE11000A244ED /* Sources */ = {
@@ -169,6 +243,16 @@
 				2195C321170DE11000A244ED /* main.m in Sources */,
 				2195C325170DE11000A244ED /* IVAppDelegate.m in Sources */,
 				2195C331170DE11100A244ED /* IVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2197F8F9170DF01A00245DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2197F8FA170DF01A00245DA7 /* main.m in Sources */,
+				2197F8FB170DF01A00245DA7 /* IVAppDelegate.m in Sources */,
+				2197F8FC170DF01A00245DA7 /* IVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +341,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWebApp/MyWebApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"DEVELOPMENT=1",
+				);
 				INFOPLIST_FILE = "MyWebApp/MyWebApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -268,8 +357,38 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWebApp/MyWebApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
 				INFOPLIST_FILE = "MyWebApp/MyWebApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2197F906170DF01A00245DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyWebApp/MyWebApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRODUCTION=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "MyWebApp copy-Info.plist";
+				PRODUCT_NAME = "MyWebApp copy";
+				SENCHA_CMD = /Users/markuschmelar/bin/Sencha/Cmd/3.1.0.256/sencha;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2197F907170DF01A00245DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyWebApp/MyWebApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PRODUCTION=1";
+				INFOPLIST_FILE = "MyWebApp copy-Info.plist";
+				PRODUCT_NAME = "MyWebApp copy";
+				SENCHA_CMD = /Users/markuschmelar/bin/Sencha/Cmd/3.1.0.256/sencha;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -286,11 +405,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2195C334170DE11100A244ED /* Build configuration list for PBXNativeTarget "MyWebApp" */ = {
+		2195C334170DE11100A244ED /* Build configuration list for PBXNativeTarget "MyWebAppDevelopment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2195C335170DE11100A244ED /* Debug */,
 				2195C336170DE11100A244ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2197F905170DF01A00245DA7 /* Build configuration list for PBXNativeTarget "MyWebAppProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2197F906170DF01A00245DA7 /* Debug */,
+				2197F907170DF01A00245DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

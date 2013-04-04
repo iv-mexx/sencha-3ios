@@ -21,8 +21,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-	
+#ifdef PRODUCTION
+	NSString *webapIndexPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"production"];
+#else 
+	#ifdef DEVELOPMENT
 	NSString *webapIndexPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"webapp"];
+	#else
+		#error Undefined Build-Target
+	#endif
+#endif
 	NSURL *webappUrl = [NSURL fileURLWithPath:webapIndexPath];
 	NSURLRequest *request = [[NSURLRequest alloc]initWithURL:webappUrl];
 	[_webView loadRequest:request];
