@@ -6,8 +6,9 @@ app can be bundled into a native iOS Application using a UIWebView.
 This is usefull if you want to combine the Sencha Touch app with native
 iOS functions. 
 
-For more information check my blogpost:
-**TODO: Add link to blog post**
+## More Information
+
+For more information read my [blog post](www.innovaptor.com/blog/2013/05/06/create-a-sencha-touch-webapp-and-deploy-within-a-native-ios-app.html)
 
 ## Production Build-Phase
 
