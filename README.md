@@ -8,7 +8,7 @@ iOS functions.
 
 ## More Information
 
-For more information read my [blog post](www.innovaptor.com/blog/2013/05/06/create-a-sencha-touch-webapp-and-deploy-within-a-native-ios-app.html)
+For more information read my blog post here: http://www.innovaptor.com/blog/2013/05/06/create-a-sencha-touch-webapp-and-deploy-within-a-native-ios-app.html
 
 ## Production Build-Phase
 
