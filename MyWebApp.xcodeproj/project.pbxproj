@@ -46,6 +46,7 @@
 		2197F8F6170DED3A00245DA7 /* production */ = {isa = PBXFileReference; lastKnownFileType = folder; name = production; path = webapp_production/production; sourceTree = SOURCE_ROOT; };
 		2197F908170DF01A00245DA7 /* MyWebApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWebApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2197F90D170DFC2E00245DA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5BB4E618173A5A37003668C1 /* MyWebAppProduction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyWebAppProduction-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 		2195C31B170DE11000A244ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BB4E618173A5A37003668C1 /* MyWebAppProduction-Info.plist */,
 				2195C31C170DE11000A244ED /* MyWebApp-Info.plist */,
 				2195C31D170DE11000A244ED /* InfoPlist.strings */,
 				2195C320170DE11000A244ED /* main.m */,
@@ -371,7 +373,7 @@
 					"PRODUCTION=1",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "MyWebApp copy-Info.plist";
+				INFOPLIST_FILE = "MyWebApp/MyWebAppProduction-Info.plist";
 				PRODUCT_NAME = "MyWebApp copy";
 				SENCHA_CMD = /Users/mexx/bin/Sencha/Cmd/3.1.1.274/sencha;
 				WRAPPER_EXTENSION = app;
@@ -384,7 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWebApp/MyWebApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PRODUCTION=1";
-				INFOPLIST_FILE = "MyWebApp copy-Info.plist";
+				INFOPLIST_FILE = "MyWebApp/MyWebAppProduction-Info.plist";
 				PRODUCT_NAME = "MyWebApp copy";
 				SENCHA_CMD = /Users/mexx/bin/Sencha/Cmd/3.1.1.274/sencha;
 				WRAPPER_EXTENSION = app;
