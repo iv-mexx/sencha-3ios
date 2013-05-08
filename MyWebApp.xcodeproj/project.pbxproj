@@ -45,7 +45,6 @@
 		2197F8F4170DE48500245DA7 /* webapp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webapp; sourceTree = SOURCE_ROOT; };
 		2197F8F6170DED3A00245DA7 /* production */ = {isa = PBXFileReference; lastKnownFileType = folder; name = production; path = webapp_production/production; sourceTree = SOURCE_ROOT; };
 		2197F908170DF01A00245DA7 /* MyWebApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWebApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2197F909170DF01A00245DA7 /* MyWebApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyWebApp copy-Info.plist"; path = "/Users/markuschmelar/Documents/web/MyWebApp/MyWebApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		2197F90D170DFC2E00245DA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +79,6 @@
 				2195C31A170DE11000A244ED /* MyWebApp */,
 				2195C313170DE11000A244ED /* Frameworks */,
 				2195C312170DE11000A244ED /* Products */,
-				2197F909170DF01A00245DA7 /* MyWebApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
