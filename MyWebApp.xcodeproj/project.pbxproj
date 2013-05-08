@@ -375,7 +375,7 @@
 				);
 				INFOPLIST_FILE = "MyWebApp copy-Info.plist";
 				PRODUCT_NAME = "MyWebApp copy";
-				SENCHA_CMD = /Users/markuschmelar/bin/Sencha/Cmd/3.1.0.256/sencha;
+				SENCHA_CMD = /Users/mexx/bin/Sencha/Cmd/3.1.1.274/sencha;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,7 +388,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "PRODUCTION=1";
 				INFOPLIST_FILE = "MyWebApp copy-Info.plist";
 				PRODUCT_NAME = "MyWebApp copy";
-				SENCHA_CMD = /Users/markuschmelar/bin/Sencha/Cmd/3.1.0.256/sencha;
+				SENCHA_CMD = /Users/mexx/bin/Sencha/Cmd/3.1.1.274/sencha;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
